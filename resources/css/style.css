@@ -1,3 +1,29 @@
 html {
-  font-family: monospace;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+header {
+  display: inline-flex;
+}
+
+nav {
+  display: inline-flex;
+}
+
+footer {
+
+}
+
+header nav ul {
+  display: flex;
+}
+
+.banner {
+  background-color: grey;
+  display: flex;
+}
+
+.learning {
+  background-color: grey;
 }
