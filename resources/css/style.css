@@ -4,11 +4,30 @@ html {
 }
 
 header {
-  display: inline-flex;
+  display: flex;
+  height: 64px;
+  width: 100%;
+  align-items: center;
+  position: fixed;
+  background-color: white;
+  z-index: 1;
+}
+
+.logo {
+  display: flex;
+  height: 32px;
+  align-items: center;
+  margin-left: 24px;
+  flex-grow: 1;
 }
 
 nav {
-  display: inline-flex;
+  display: flex;
+  margin-right: 24px;
+}
+
+ul {
+  justify-content: space-between;
 }
 
 footer {
@@ -20,10 +39,27 @@ header nav ul {
 }
 
 .banner {
-  background-color: grey;
   display: flex;
+  background-color: #D8D8D8;
+  display: flex;
+  position: relative;
+  top: 64px;
+  width: 100%;
+}
+
+.banner .left {
+  background: url("../media/banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 32px;
+  margin-right: 24px;
+  margin-bottom: 32px;
+  margin-left: 24px;
+  height: 550px;
+  width: 60%;
 }
 
 .learning {
-  background-color: grey;
+  background-color: #D8D8D8;
 }
