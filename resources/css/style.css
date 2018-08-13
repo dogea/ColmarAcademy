@@ -1,7 +1,25 @@
+/* Universal Tags */
+
 html {
   font-family: "Roboto", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
 }
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+/* Header Section */
 
 header {
   display: flex;
@@ -21,25 +39,111 @@ header {
   flex-grow: 1;
 }
 
+.colmaracademy {
+  font-weight: bold;
+}
+
+.academy {
+  color: #D8D8D8;
+}
+
 nav {
   display: flex;
   margin-right: 24px;
 }
 
-ul {
-  justify-content: space-between;
-}
+/* Content Section */
 
-footer {
 
-}
-
-header nav ul {
-  display: flex;
-}
+/* Banner Section */
 
 .banner {
   display: flex;
+  background-color: #D8D8D8;
+  position: relative;
+  top: 64px;
+  width: 100%;
+}
+
+.banner .left {
+  margin-top: 32px;
+  margin-right: 24px;
+  margin-bottom: 32px;
+  margin-left: 24px;
+  width: 60%;
+}
+
+.banner .left img {
+  width: 100%;
+}
+
+.banner .right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 440px;
+}
+
+.banner .right .button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.banner .right a {
+  color: white;
+  background-color: grey;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+/* Information Section */
+
+.information {
+  display: flex;
+  background-color: white;
+  position: relative;
+  top: 64px;
+  width: 100%;
+}
+
+.information .left {
+  margin-top: 32px;
+  margin-right: 24px;
+  margin-bottom: 32px;
+  margin-left: 24px;
+  width: 60%;
+}
+
+.information .left img {
+  width: 100%;
+}
+
+.information.right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 440px;
+}
+
+.orientation-container {
+  display: flex;
+}
+
+.campus-container {
+  display: flex;
+}
+
+.lecture-container {
+  display: flex;
+}
+
+/* Course Section */
+
+.course {
   background-color: #D8D8D8;
   display: flex;
   position: relative;
@@ -47,19 +151,22 @@ header nav ul {
   width: 100%;
 }
 
-.banner .left {
-  background: url("../media/banner.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  margin-top: 32px;
-  margin-right: 24px;
-  margin-bottom: 32px;
-  margin-left: 24px;
-  height: 550px;
+/* Thesis Section */
+
+.thesis {
+
+}
+
+.thesis .left {
   width: 60%;
 }
 
-.learning {
-  background-color: #D8D8D8;
+.thesis .right {
+
+}
+
+/* Footer Section */
+
+footer {
+
 }

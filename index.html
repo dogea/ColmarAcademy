@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <title>Colmar Academy</title>
     <link rel="stylesheet" href="./resources/css/reset.css">
-    <link rel="stylesheet" href="./resources/css/style.css">
+    <link rel="stylesheet" href="./resources/css/styleAlt.css">
+    <link rel="icon" href="./resources/media/ic-logo.ico" type="image/x-icon">
   </head>
   <body>
 
@@ -12,85 +13,124 @@
 
     <header>
       <div class="logo">
-        <img src="./resources/media/ic-logo.svg" alt="Colmar Academy Logo"> COLMAR ACADEMY
+        <img src="./resources/media/ic-logo.svg" alt="Colmar Academy">
+        <span class="colmaracademy">COLMAR <span class="academy">ACADEMY</span></span>
       </div>
       <nav>
-        <ul>
-          <li><a href="#">On campus</a></li>
-          <li><a href="#">Online</a></li>
-          <li><a href="#">Our Companies</a></li>
-          <li><a href="#">Sign in</a></li>
-        </ul>
+        <span><a href="#">On campus</a></span>
+        <span><a href="#">Online</a></span>
+        <span><a href="#">or companies</a></span>
+        <span><a href="#">Sign in</a></span>
       </nav>
     </header>
 
-    <!-- Main section -->
+    <!-- Content section -->
 
-        <div class="banner">
-          <div class="left">
-          </div>
-          <div class="right">
-            <p>Learn something new everyday</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            <p>Start here</p>
-          </div>
-        </div>
-        <div class="presentation">
-          <div class="left">
-            This is the Left section
-          </div>
-          <div class="right">
-            <div class="orientation">
-              This is the Right/Orientation section
+    <main class="content">
+
+      <!-- Banner section -->
+
+          <div class="banner">
+            <div class="left">
+              <img src="./resources/media/banner.jpg" alt="Students reading a book">
             </div>
-            <div class="campus">
-              This is the Right/Campus section
-            </div>
-            <div class="lecture">
-              This is the Right/Lecture section
-            </div>
+            <section class="right">
+              <h1>Learn something new everyday</h1>
+              <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
+              <div class="button">
+                <a href="#">Start here</a>
+              </div>
+            </section>
           </div>
-        </div>
-        <div class="learning">
-          <div class="software">
-            This is the Learning section
-          </div>
-          <div class="computer">
-            This is the Computer section
-          </div>
-          <div class="design">
-            This is the Design section
-          </div>
-          <div class="data">
-            This is the Data section
-          </div>
-          <div class="business">
-            This is the Business section
-          </div>
-          <div class="marketing">
-            This is the Marketing section
-          </div>
-        </div>
-        <div class="thesis">
-          <div class="left">
-            <div class="video">
-              This is the Left/Video section
-            </div>
-          </div>
-          <div class="right">
-            <div class="fisma">
-              This is the Right/Fisma section
-            </div>
-            <div class="nowandthen">
-              This is the Right/NowAndThen section
+
+      <!-- Information section -->
+
+          <div class="information">
+            <section class="left">
+              <img src="./resources/media/information-main.jpg" alt="Man reading a book">
+              <h2>It doesn't hurt to keep practicing</h2>
+              <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequate neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
+              <p>Emmanuel, Sr Strategist at Hiring.com</p>
+            </section>
+            <div class="right">
+              <div class="orientation-container">
+                <img src="./resources/media/information-orientation.jpg" alt="People walking">
+                <article class="orientation">
+                  <h3>Orientation date</h3>
+                  <p>Tues 10/11 & Wed 10/12: 8am-3pm</p>
+                  <a href="#">Read more</a>
+                </article>
+              </div>
+              <div class="campus-container">
+                <img src="./resources/media/information-campus.jpg" alt="Campus">
+                <article class="campus">
+                  <h3>Our campus</h3>
+                  <p>Find which campus is close by you</p>
+                  <a href="#">Read more</a>
+                </article>
+              </div>
+              <div class="lecture-container">
+                <img src="./resources/media/information-guest-lecture.jpg" alt="Oliver Stack">
+                <article class="lecture">
+                  <h3>Our guest lecture</h3>
+                  <p>Join a keynote with Oliver Sack about music about medical treatment</p>
+                  <a href="#">Read more</a>
+                </article>
+              </div>
             </div>
           </div>
-        </div>
+
+      <!-- Course section -->
+
+          <section class="course">
+            <h2>Start learning</h2>
+            <div class="classes">
+              <div class="software">
+                <h3>Software engineering</h3>
+              </div>
+              <div class="art">
+                <h3>Computer art</h3>
+              </div>
+              <div class="design">
+                <h3>Design</h3>
+              </div>
+              <div class="data">
+                <h3>Data</h3>
+              </div>
+              <div class="Business">
+                <h3>Business</h3>
+              </div>
+              <div class="marketing">
+                <h3>Marketing</h3>
+              </div>
+            </div>
+          </section>
+
+      <!-- Thesis section -->
+
+          <section class="exhibit">
+            <h2>Thesis exhibit</h2>
+            <div class="thesis">
+              <div class="left">
+                <h3>Reimagine urban</h3>
+              </div>
+              <div class="right">
+                <article class="fisma">
+                  <h3>Fisma: Design and Prototype</h3>
+                </article>
+                <article class="nowandthen">
+                  <h3>Now and then</h3>
+                </article>
+              </div>
+            </div>
+          </section>
+
+    </main>
 
     <!-- Footer section -->
 
     <footer>
-      This is my footer section
     </footer>
+
   </body>
 </html>
