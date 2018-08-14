@@ -24,6 +24,7 @@ h3 {
 }
 
 p {
+  font-size: 1rem;
   margin-bottom: 8px;
 }
 
@@ -67,6 +68,28 @@ header {
 nav {
   display: flex;
   margin-right: 24px;
+}
+
+nav.mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 680px) {
+  nav.desktop {
+    display: none;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  nav.mobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 24px;
+    padding-left: 24px;
+  }
 }
 
 .with-margin {
