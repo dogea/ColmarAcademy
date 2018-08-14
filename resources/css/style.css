@@ -34,13 +34,18 @@ hr {
 /* Header Section */
 
 header {
-  display: flex;
-  height: 64px;
   width: 100%;
-  align-items: center;
   position: fixed;
   background-color: white;
   z-index: 1;
+}
+
+.site-header {
+  height: 64px;
+  display: flex;
+  max-width: 1250px;
+  margin: auto;
+  align-items: center;
 }
 
 .logo {
@@ -73,7 +78,8 @@ margin-right: 16px;
 .content {
   top: 64px;
   position: relative;
-  width: 100%;
+  max-width: 1250px;
+  margin: auto;
 }
 
 /* Banner Section */
